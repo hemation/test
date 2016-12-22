@@ -1,0 +1,398 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 13, 2014, 10:16:20 PM
+    Author     : empcl_000
+*/
+@font-face
+{
+    font-family: GE_SS_Two_Bold;
+    src: url(fontes/GE_SS_Two_Bold.otf);
+}
+
+@font-face
+{
+    font-family: GE_SS_Two_Medium;
+    src: url(fontes/GE_SS_Two_Medium.otf);
+}
+
+
+@font-face
+{
+    font-family: GE_SS_Two_ligher;
+    src: url(fontes/GE_SS_Two_ligher.otf);
+}
+
+
+
+@font-face
+{
+    font-family: Oswald-Bold;
+    src: url(fontes/Oswald-Bold.ttf);
+}
+
+@font-face
+{
+    font-family:Oswald-Light;
+    src: url(fontes/Oswald-Light.ttf);
+}
+
+
+@font-face
+{
+    font-family: Oswald;
+    src: url(fontes/Oswald-Regular.ttf);
+}
+
+
+
+
+body{
+ 
+    
+}
+
+.logo{
+    position: absolute;
+    top: 50px;
+    height: 25px;
+    width: 980px;
+    left: 0px; 
+    background-color: rgba(221, 94, 77, 1);
+
+}
+
+.logo_b{
+    background-color: rgba(221, 94, 77, 1);
+    position: absolute;
+    top: 85px;
+    height: 5px;
+    width: 980px;
+    left: 0px;}
+
+.logo .data{
+    width: 194px;
+    height: 185px;
+    background: url(images/logo_bg.png) no-repeat center;
+    margin: auto;
+    margin-top: -53px;
+    position: relative;
+    z-index: 1;
+}
+
+
+._fwidth{
+    width:100%;
+}
+
+
+
+.alldata{
+
+
+
+}
+.menu{
+    position: relative;
+    background-color: rgba(219, 213, 190, 1);
+    top: 201px;
+    height: 50px;
+    width: 1000px;
+    margin: auto;background: url(images/menu_bg.png) no-repeat center;
+
+}
+
+
+.menu li{
+
+    display: inline-block;
+
+    margin-left: 70px;
+}
+
+
+
+
+.menu ul{
+    margin-left: -40px;
+    margin: 0;
+}
+.menu li a{
+    font-family: "GE_SS_Two_Medium";
+    line-height: 39px;
+    text-align: center;
+    display: block;
+    padding: 0px;
+    width: 229px;
+    color: #DD5E4D;
+    transition: color 0.4s ease 0s;
+    text-decoration: blink;
+    font-size: 12px; 
+}
+.menu li a:hover,.menu li  a.active{
+    background: #666255;
+
+}
+.main{
+
+    position: relative;
+
+
+    top: 190px;
+    height: 500px;
+
+
+    width: 950px;
+    overflow: auto;
+    margin: auto;
+    background-color: rgba(243, 236, 223, 1);
+
+
+    padding: 0px 15px;
+
+}
+
+footer{
+    width: 980px;  
+    position: relative;
+    margin: auto;
+    background-color: rgba(153, 148, 128, 1);
+    height: 170px;
+    top: 224px;
+}
+
+
+.line{
+    border-top: 2px solid rgba(153, 148, 128, 1);
+    border-bottom: 1px solid rgba(153, 148, 128, 1);
+    padding: 5px 0 0 0;
+    width:100%;
+}
+h2{
+    font-family: "GE_SS_Two_Bold";
+    color: #DD5E4D;
+    font-size: 28px;
+    text-align: right;
+    margin: 10px 8px;
+    font-weight: normal;
+}
+
+
+footer .des{
+    border-right: 2px dashed rgba(243, 236, 223, 0.87);
+    color: #F3ECDF;
+    border-left: 2px dashed rgba(243, 236, 223, 0.87);
+    text-align: center;
+    top: 30px;
+    position: relative;
+
+    width: 80%; font-family: "GE_SS_Two_ligher";
+    margin:auto ;
+    text-align: justify;
+    direction: rtl;
+    padding:7px;
+    text-shadow: 1px 1px 2px #333
+}
+footer .des .title{
+    font-family: "GE_SS_Two_Medium";
+    color: #E2B32F;
+    float: right;
+    clear: both;
+    width: 100%;
+    text-align: right;
+    padding-right: 27px;
+    font-size: 24px;
+}
+
+.copyright{
+    text-align: center;
+    width:100%;
+    margin-top: 40px;
+
+    color: #666255;
+}
+
+
+.bx-wrapper img {
+
+    width: 50%;
+    float: right;min-height: 343px;
+    max-height: 355px;
+}
+
+.bx-wrapper .bx-viewport {
+
+    background: none;
+    box-shadow:none;
+    border: none;
+}
+.bx-wrapper
+
+.data ,.col .data{
+    width:30%;
+    float: left;
+    margin-left: 10%;
+    direction: rtl;
+    text-align: right;
+    background-color: rgba(153, 148, 128, 1);
+
+    height:322px;
+    margin-top: 5px;
+    padding:5px;
+}
+
+a{
+    color: rgba(153, 148, 128, 1);
+    font-family: "GE_SS_Two_ligher";
+    text-decoration: none;
+    text-align: right;
+    font-size: 12px;
+    direction: rtl
+}
+.data .inner ,.col inner{
+
+    height:96%; font-family: "GE_SS_Two_ligher";
+    padding:1%;
+    color: #F3ECDF;
+}
+.col .data{
+    height:150px;
+}
+.col .images img{
+    height: 125px;
+    width: 126px;
+}
+.photo_items{
+    float: right;
+    width: 126px;
+    margin: 5px;
+}
+
+.data .inner a{
+    color: #E2B32F; 
+    font-family: "GE_SS_Two_Medium";
+    text-decoration: none;
+    text-shadow: 1px  1px 2px #333;
+    font-size: 18px;
+    display: block;
+    margin: 5px;font-size: 14px;
+    line-height: 28px;
+
+}
+
+
+.col .images{
+    width:60%;
+    float: right
+}
+
+.col .data {
+
+    margin-left: 7%;}
+
+
+.coltitle{
+    color: rgba(153,148,128,1);
+    width:100%;  font-family: "GE_SS_Two_Medium";
+    text-align: right;
+    padding: 5px;
+    width:97%;
+    margin: auto;
+    border-bottom: 2px dashed rgba(153, 148, 128, 1);
+    clear: both;
+    display: block;
+    margin-top: 20px;
+}
+.photo_items .title{
+    direction: rtl;
+    text-align: right;
+    width: 100%;
+    display: block;
+}
+.photo_items{
+    position: relative
+}
+.overlay ,.overlay a{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    bottom: 0px;
+    cursor: pointer;
+    display: block ;
+}
+
+.toright {
+    float: right;
+}
+
+
+.tabsheader li{
+    color: rgba(153,148,128,1);
+    border-bottom: 2px dashed rgba(153, 148, 128, 1);
+
+    list-style: square;
+    direction: rtl
+        ;font-family: "GE_SS_Two_Medium";
+    text-align: right;
+    width:200px;
+    line-height: 25px;
+    padding: 5px;
+    margin-right: 15px
+        ;
+    cursor: pointer
+}
+
+.tabsheader li.act{
+
+    background: #666255;
+}
+
+.tabsbody{
+    float: left;
+    width: 650px;
+    background: #DBD5BE;
+    border: 2px dashed rgba(153, 148, 128, 1);
+    margin: 5px;
+    overflow-y: auto;
+    height: 400px;
+    position: relative;
+
+
+}
+
+.tabbody{
+    display: none;
+    padding:5px;
+    direction: rtl;
+    position: absolute;
+}
+
+.video {
+    right: 104px;
+   
+    padding-top: 23px;
+}
+
+}.video.des{
+    right:0px;background-color: rgba(153, 148, 128, 1);
+    padding: 5px;
+    font-family: "GE_SS_Two_ligher";
+    color:#F3ECDF;
+}
+
+.about .video.des{
+
+       min-height:300px;
+}
+
+.about .des img{
+    float:right;
+    width:150px;
+    margin:0px 10px 10px  10px;
+}
